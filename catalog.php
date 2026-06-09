@@ -15,6 +15,7 @@ $products = $stmt->fetchAll();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Katalog - SiapTrek</title>
+    <link rel="icon" href="img/logo.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
@@ -489,8 +490,8 @@ $products = $stmt->fetchAll();
     <nav class="navbar navbar-expand-lg sticky-top" id="mainNavbar">
         <div class="container">
             <a class="navbar-brand" href="index.php">
-                <div class="brand-icon"><i class="bi bi-campground"></i></div>
-                SiapTrek
+                <img src="img/logo.jpg" alt="SiapTrek Logo" height="30" class="d-inline-block align-text-top me-2">
+            SiapTrek
             </a>
             <div class="d-flex align-items-center gap-3">
                 <span class="nav-user-greeting d-none d-md-block">
